@@ -43,7 +43,7 @@ http.createServer(function(request, response) {
             });
 
             //Done Close connection
-            //db.close();
+            db.close();
         }
         //response.end('Finished, Connection closed \n');
     });
