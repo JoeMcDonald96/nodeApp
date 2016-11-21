@@ -42,7 +42,6 @@ http.createServer(function(request, response) {
                 }
             });
 
-
             //Done Close connection
             db.close();
         }
