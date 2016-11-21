@@ -11,7 +11,7 @@ var MongoClient = mongodb.MongoClient;
 
 http.createServer(function(request, response) {
     response.writeHead(200, { 'Content-Type': 'text/plain' });
-    response.write('Retrieve');
+    response.write('Retrieve \n');
     response.write('Connecting \n');
     // Use connect method to connect to the Server
     MongoClient.connect(url, function (err, db) {
