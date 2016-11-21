@@ -22,7 +22,7 @@ http.createServer(function(request, response) {
             db.close();
         } else {
             //HURRAY!! We are connected. :)
-            response.write('Connection established to' + url +"\n");
+            response.write('Connection established to ' + url +"\n");
 
             // Get the documents collection
             var collection = db.collection('users');
